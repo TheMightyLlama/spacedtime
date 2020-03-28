@@ -55,6 +55,11 @@ export default {
   pwa: {
       meta: {
           name: 'SpacedTime Website'
+      },
+      manifest: {
+          name: 'SpacedTime Website',
+          lang: 'en',
+          short_name: 'SpacedTime'
       }
   }
 };
