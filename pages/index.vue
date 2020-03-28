@@ -16,17 +16,24 @@
               target="_blank"
               rel="noopener"
               href="https://www.youtube.com/channel/UCH1m4a3Kud_lx3eRlaZts5Q"
-            >Youtube</a>
+              >Youtube</a
+            >
           </li>
           <li>
-            <a target="_blank" rel="noopener" href="https://github.com/uptownhr/spacedtime">Github</a>
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://github.com/uptownhr/spacedtime"
+              >Github</a
+            >
           </li>
         </ul>
       </nav>
       <h1>Remember the important things in your life.</h1>
       <p>
         Using time spaced repition techniques, you can
-        <mark>permemantly</mark> store information in your brain, instead of the cloud.
+        <mark>permemantly</mark> store information in your brain, instead of the
+        cloud.
       </p>
       <br />
       <p>
@@ -37,8 +44,8 @@
 
       <code style="margin-top: 3rem">
         1. yarn global add spacedtime
-        <br />2. spacedtime add "What is my anniversary" "2010-10-10"
-        <br />3. spacedtime recall //this will now pull a question for you to remember
+        <br />2. spacedtime add "What is my anniversary" "2010-10-10" <br />3.
+        spacedtime recall //this will now pull a question for you to remember
         <br />
       </code>
     </header>
@@ -46,7 +53,12 @@
     <footer>
       <hr />
       <p>
-        <a target="_blank" rel="noopener" href="https://www.twitter.com/uptownhr">twitter (uptownhr)</a>
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://www.twitter.com/uptownhr"
+          >twitter (uptownhr)</a
+        >
       </p>
     </footer>
   </div>
