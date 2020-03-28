@@ -50,14 +50,14 @@
       </code>
 
       <a
-        style="margin-top: 3rem;"
+        style="margin-top: 3rem; display: block;"
         href="https://www.producthunt.com/posts/spacedtime?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-spacedtime"
         target="_blank"
       >
         <img
           src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=190071&theme=light"
           alt="SpacedTime - Remember the important things in your life | Product Hunt Embed"
-          style="width: 250px; height: 54px; margin-top: 3rem;"
+          style="width: 250px; height: 54px;"
           width="250px"
           height="54px"
       /></a>
