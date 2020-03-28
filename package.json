@@ -2,6 +2,7 @@
   "name": "spacedtime",
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "dotenv": "^8.2.0",
     "nuxt": "^2.12.0"
   },
   "version": "0.1.10",

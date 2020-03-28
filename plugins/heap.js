@@ -12,5 +12,5 @@ export default () => {
                 }
             }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++) heap[p[o]] = n(p[o])
     };
-    heap.load("630703387");
+    heap.load(process.env.HEAP);
 }

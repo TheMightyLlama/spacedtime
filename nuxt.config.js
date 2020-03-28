@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 export default {
   css: ['@/assets/css/mvp.css'],
 
@@ -65,5 +67,9 @@ export default {
 
   plugins: [
     { src: '@/plugins/heap.js', mode: 'client'}
-  ]
+  ],
+
+  env: {
+    HEAP: process.env.HEAP
+  }
 };
