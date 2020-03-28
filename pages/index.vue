@@ -48,9 +48,20 @@
         spacedtime recall //this will now pull a question for you to remember
         <br />
       </code>
+    </header>
+    
+    <footer>
+      <hr />
+      <nav style="margin-bottom: 0;">
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://www.twitter.com/uptownhr"
+          >twitter (uptownhr)</a
+        >
 
-      <a
-        style="margin-top: 3rem; display: block;"
+        <a
+        style="display: block;"
         href="https://www.producthunt.com/posts/spacedtime?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-spacedtime"
         target="_blank"
       >
@@ -61,18 +72,7 @@
           width="250px"
           height="54px"
       /></a>
-    </header>
-
-    <footer>
-      <hr />
-      <p>
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://www.twitter.com/uptownhr"
-          >twitter (uptownhr)</a
-        >
-      </p>
+      </nav>
     </footer>
   </div>
 </template>
