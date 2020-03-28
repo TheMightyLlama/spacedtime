@@ -46,21 +46,3 @@
     </footer>
   </div>
 </template>
-
-<script>
-export default {
-  head() {
-    return {
-      title: 'SpacedTime - Spaced Time Repetition App',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Use the spaced time memory technique to permenantly remember the important things in your life.'
-        }
-      ]
-    };
-  }
-};
-</script>
