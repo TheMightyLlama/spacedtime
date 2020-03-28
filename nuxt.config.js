@@ -46,5 +46,9 @@ export default {
 
       { property: 'og:image:type', content: 'image/png' }
     ]
-  }
+  },
+
+  modules: [
+      '@nuxtjs/pwa'
+  ]
 };
