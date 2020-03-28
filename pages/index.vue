@@ -31,8 +31,8 @@
       </nav>
       <h1>Remember the important things in your life.</h1>
       <p>
-        Using time spaced repition techniques, you can
-        <mark>permemantly</mark> store information in your brain, instead of the
+        Using time spaced repetition techniques, you can
+        <mark>permanently</mark> store information in your brain, instead of the
         cloud.
       </p>
       <br />
