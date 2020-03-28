@@ -3,7 +3,11 @@
     <header>
       <nav>
         <a href="/">
-          <img alt="Logo" src="/spacedtime-logo.png" height="70" />
+          <picture>
+            <source srcset="/spacedtime-logo.webp" type="image/webp" />
+            <source srcset="/spacedtime-logo.png" type="image/png" />
+            <img alt="Logo" src="/spacedtime-logo.png" height="70" />
+          </picture>
         </a>
         <ul>
           <li>Home</li>
