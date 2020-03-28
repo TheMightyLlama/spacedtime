@@ -50,5 +50,11 @@ export default {
 
   modules: [
       '@nuxtjs/pwa'
-  ]
+  ],
+
+  pwa: {
+      meta: {
+          name: 'SpacedTime Website'
+      }
+  }
 };
