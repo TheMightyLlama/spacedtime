@@ -10,11 +10,12 @@
           <li>
             <a
               target="_blank"
+              rel="noopener"
               href="https://www.youtube.com/channel/UCH1m4a3Kud_lx3eRlaZts5Q"
             >Youtube</a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/uptownhr/spacedtime">Github</a>
+            <a target="_blank" rel="noopener" href="https://github.com/uptownhr/spacedtime">Github</a>
           </li>
         </ul>
       </nav>
@@ -41,7 +42,7 @@
     <footer>
       <hr />
       <p>
-        <a target="_blank" href="https://www.twitter.com/uptownhr">twitter (uptownhr)</a>
+        <a target="_blank" rel="noopener" href="https://www.twitter.com/uptownhr">twitter (uptownhr)</a>
       </p>
     </footer>
   </div>
