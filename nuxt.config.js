@@ -61,5 +61,9 @@ export default {
           lang: 'en',
           short_name: 'SpacedTime'
       }
-  }
+  },
+
+  plugins: [
+    { src: '@/plugins/heap.js', mode: 'client'}
+  ]
 };
