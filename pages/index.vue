@@ -31,15 +31,36 @@
       </p>
 
       <code style="margin-top: 3rem">
-          1. yarn global add spacedtime <br/>
-          2. spacedtime add "What is my anniversary" "2010-10-10" <br/>
-          3. spacedtime recall //this will now pull a question for you to remember <br/>
+        1. yarn global add spacedtime
+        <br />2. spacedtime add "What is my anniversary" "2010-10-10"
+        <br />3. spacedtime recall //this will now pull a question for you to remember
+        <br />
       </code>
     </header>
-    
+
     <footer>
       <hr />
-      <p><a target="_blank" href="https://www.twitter.com/uptownhr">twitter (uptownhr)</a></p>
+      <p>
+        <a target="_blank" href="https://www.twitter.com/uptownhr">twitter (uptownhr)</a>
+      </p>
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'SpacedTime - Spaced Time Repetition App',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Use the spaced time memory technique to permenantly remember the important things in your life.'
+        }
+      ]
+    };
+  }
+};
+</script>
