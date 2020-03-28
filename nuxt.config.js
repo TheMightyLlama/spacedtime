@@ -23,7 +23,7 @@ export default {
 
       {
         property: 'og:title',
-        content: 'Get A Dedicated HR Manager For $99/month'
+        content: 'Remember the import things in your life'
       },
 
       {
