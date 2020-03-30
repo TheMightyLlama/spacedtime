@@ -50,7 +50,7 @@ config:
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
     type: floating
-    title: Terminalizer
+    title: Spacedtime
     style:
       border: 0px black solid
       # boxShadow: none
@@ -297,8 +297,6 @@ records:
     content: "what is my anniversary?\r\nPress any key to reveal the answer\r\n"
   - delay: 1773
     content: "2006/10/10\r\n\e[1G\e[0Jdid you remember successfully? yes(y) or no(n) \e[48G"
-  - delay: 2595
-    content: 'y'
   - delay: 1172
     content: "\e[1G\e[0Jdid you remember successfully? yes(y) or no(n) \e[48G"
   - delay: 465
@@ -331,15 +329,3 @@ records:
     content: "\r\n"
   - delay: 93
     content: "no questions to be recalled at this time. Try again later.\r\n\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\aJamess-MacBook-Pro:spacedtime james$ "
-  - delay: 14299
-    content: "logout\r\nSaving session..."
-  - delay: 10
-    content: "\r\n...copying shared history..."
-  - delay: 5
-    content: "\r\n...saving history..."
-  - delay: 7
-    content: "truncating history files...\r\n...completed.\r\n"
-  - delay: 7
-    content: Deleting expired sessions...
-  - delay: 7
-    content: "3 completed.\r\n"

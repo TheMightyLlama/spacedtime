@@ -35,6 +35,9 @@
         <mark>permanently</mark> store information in your brain, instead of the
         cloud.
       </p>
+
+      <img style="width: 640px;" src="/spacedtime-terminal.gif" />
+
       <br />
       <p>
         <a href="https://github.com/uptownhr/spacedtime">
