@@ -1,0 +1,345 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/james/Opensource/spacedtime
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 2835
+    content: "\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\a\e[?1034hJamess-MacBook-Pro:spacedtime james$ "
+  - delay: 3876
+    content: s
+  - delay: 122
+    content: p
+  - delay: 112
+    content: a
+  - delay: 152
+    content: c
+  - delay: 112
+    content: e
+  - delay: 307
+    content: d
+  - delay: 399
+    content: t
+  - delay: 116
+    content: i
+  - delay: 56
+    content: m
+  - delay: 84
+    content: e
+  - delay: 123
+    content: "\r\n"
+  - delay: 115
+    content: "Usage: spacedtime [options] [command]\r\n\r\nOptions:\r\n  -V, --version            output the version number\r\n  -h, --help               display help for command\r\n\r\nCommands:\r\n  add <question> <answer>  add a question and answer that you want to\r\n                           remember\r\n  recall                   will display a question for you to recall\r\n  help [command]           display help for command\r\n\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\aJamess-MacBook-Pro:spacedtime james$ "
+  - delay: 1485
+    content: s
+  - delay: 88
+    content: p
+  - delay: 91
+    content: a
+  - delay: 109
+    content: c
+  - delay: 79
+    content: e
+  - delay: 240
+    content: d
+  - delay: 441
+    content: t
+  - delay: 140
+    content: i
+  - delay: 87
+    content: m
+  - delay: 267
+    content: e
+  - delay: 863
+    content: ' '
+  - delay: 486
+    content: a
+  - delay: 226
+    content: d
+  - delay: 151
+    content: d
+  - delay: 351
+    content: ' '
+  - delay: 298
+    content: '"'
+  - delay: 337
+    content: w
+  - delay: 109
+    content: h
+  - delay: 104
+    content: a
+  - delay: 52
+    content: t
+  - delay: 114
+    content: ' '
+  - delay: 20
+    content: i
+  - delay: 83
+    content: s
+  - delay: 109
+    content: ' '
+  - delay: 342
+    content: m
+  - delay: 283
+    content: 'y'
+  - delay: 816
+    content: ' '
+  - delay: 654
+    content: d
+  - delay: 162
+    content: a
+  - delay: 130
+    content: u
+  - delay: 92
+    content: g
+  - delay: 124
+    content: h
+  - delay: 72
+    content: t
+  - delay: 132
+    content: e
+  - delay: 70
+    content: r
+  - delay: 312
+    content: s
+  - delay: 256
+    content: ' '
+  - delay: 218
+    content: b
+  - delay: 110
+    content: i
+  - delay: 128
+    content: r
+  - delay: 167
+    content: t
+  - delay: 68
+    content: h
+  - delay: 147
+    content: "d \r"
+  - delay: 103
+    content: a
+  - delay: 93
+    content: 'y'
+  - delay: 400
+    content: '"'
+  - delay: 537
+    content: ' '
+  - delay: 233
+    content: '"'
+  - delay: 1494
+    content: '7'
+  - delay: 534
+    content: /
+  - delay: 146
+    content: '1'
+  - delay: 285
+    content: /
+  - delay: 1332
+    content: '2'
+  - delay: 54
+    content: '0'
+  - delay: 200
+    content: '1'
+  - delay: 149
+    content: '7'
+  - delay: 774
+    content: '"'
+  - delay: 631
+    content: "\r\n"
+  - delay: 96
+    content: "added { question: \e[32m'what is my daughters birthday'\e[39m,\r\n  answer: \e[32m'7/1/2017'\e[39m,\r\n  streak: \e[33m1\e[39m }\r\n"
+  - delay: 5
+    content: "\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\aJamess-MacBook-Pro:spacedtime james$ "
+  - delay: 4537
+    content: s
+  - delay: 82
+    content: p
+  - delay: 311
+    content: a
+  - delay: 342
+    content: c
+  - delay: 160
+    content: e
+  - delay: 173
+    content: d
+  - delay: 240
+    content: t
+  - delay: 126
+    content: i
+  - delay: 64
+    content: m
+  - delay: 220
+    content: e
+  - delay: 154
+    content: ' '
+  - delay: 96
+    content: r
+  - delay: 72
+    content: e
+  - delay: 198
+    content: c
+  - delay: 84
+    content: a
+  - delay: 60
+    content: l
+  - delay: 144
+    content: l
+  - delay: 279
+    content: "\r\n"
+  - delay: 93
+    content: "what is my anniversary?\r\nPress any key to reveal the answer\r\n"
+  - delay: 1773
+    content: "2006/10/10\r\n\e[1G\e[0Jdid you remember successfully? yes(y) or no(n) \e[48G"
+  - delay: 2595
+    content: 'y'
+  - delay: 1172
+    content: "\e[1G\e[0Jdid you remember successfully? yes(y) or no(n) \e[48G"
+  - delay: 465
+    content: 'n'
+  - delay: 946
+    content: "\r\r\n"
+  - delay: 13
+    content: "sorry we will ask again sooner in a minute\r\n"
+  - delay: 6
+    content: "\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\aJamess-MacBook-Pro:spacedtime james$ "
+  - delay: 1149
+    content: spacedtime recall
+  - delay: 385
+    content: "\r\n"
+  - delay: 94
+    content: "what is my daughters birthday\r\nPress any key to reveal the answer\r\n"
+  - delay: 1964
+    content: "7/1/2017\r\n\e[1G\e[0Jdid you remember successfully? yes(y) or no(n) \e[48G"
+  - delay: 1028
+    content: 'y'
+  - delay: 438
+    content: "\r\r\n"
+  - delay: 8
+    content: "congrats, we are going to ask you again later in a minute\r\n"
+  - delay: 5
+    content: "\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\aJamess-MacBook-Pro:spacedtime james$ "
+  - delay: 1682
+    content: spacedtime recall
+  - delay: 347
+    content: "\r\n"
+  - delay: 93
+    content: "no questions to be recalled at this time. Try again later.\r\n\e]7;file://Jamess-MacBook-Pro.local/Users/james/Opensource/spacedtime\aJamess-MacBook-Pro:spacedtime james$ "
+  - delay: 14299
+    content: "logout\r\nSaving session..."
+  - delay: 10
+    content: "\r\n...copying shared history..."
+  - delay: 5
+    content: "\r\n...saving history..."
+  - delay: 7
+    content: "truncating history files...\r\n...completed.\r\n"
+  - delay: 7
+    content: Deleting expired sessions...
+  - delay: 7
+    content: "3 completed.\r\n"
