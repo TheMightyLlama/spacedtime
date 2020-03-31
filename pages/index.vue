@@ -60,8 +60,8 @@
           <a
           target="_blank"
           rel="noopener"
-          href="https://www.everchat.com/uptownhr"
-          >Chat with me
+          href="https://ever.chat/uptownhr"
+          >Ever.Chat me
         </a>
         <br />
         <a
