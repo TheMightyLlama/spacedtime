@@ -56,12 +56,22 @@
     <footer>
       <hr />
       <nav style="margin-bottom: 0;">
-        <a
+        <div>
+          <a
           target="_blank"
           rel="noopener"
           href="https://www.everchat.com/uptownhr"
-          >Chat with me</a
-        >
+          >Chat with me
+        </a>
+        <br />
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://www.twitter.com/uptownhr"
+          >Twitter (uptownhr)
+        </a>
+        </div>
+        
 
         <a
           style="display: block;"
