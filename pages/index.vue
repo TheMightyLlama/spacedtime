@@ -60,8 +60,8 @@
           <a
           target="_blank"
           rel="noopener"
-          href="https://ever.chat/uptownhr"
-          >Ever.Chat me
+          href="https://ever.chat/spacedtime"
+          >Ever.chat/spacedtime
         </a>
         <br />
         <a
