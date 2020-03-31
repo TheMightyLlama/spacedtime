@@ -59,8 +59,8 @@
         <a
           target="_blank"
           rel="noopener"
-          href="https://www.twitter.com/uptownhr"
-          >twitter (uptownhr)</a
+          href="https://www.everchat.com/uptownhr"
+          >Chat with me</a
         >
 
         <a
