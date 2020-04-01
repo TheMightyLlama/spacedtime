@@ -36,9 +36,6 @@
         cloud.
       </p>
 
-      <img style="width: 640px;" src="/spacedtime-terminal.gif" />
-
-      <br />
       <p>
         <a href="https://github.com/uptownhr/spacedtime">
           <b>Check it out on Github</b>
