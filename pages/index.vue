@@ -31,10 +31,14 @@
       </nav>
       <h1>Remember the important things in your life.</h1>
       <p>
-        Using time spaced repetition techniques, you can
+        Using the spaced time repetition techniques, you can
         <mark>permanently</mark> store information in your brain, instead of the
         cloud.
       </p>
+
+      <no-ssr>
+        <typed-examples />
+      </no-ssr>
 
       <p>
         <a href="https://github.com/uptownhr/spacedtime">
@@ -54,35 +58,26 @@
       <hr />
       <nav style="margin-bottom: 0;">
         <div>
+          <a target="_blank" rel="noopener" href="https://ever.chat/spacedtime"
+            >Ever.chat/spacedtime
+          </a>
+          <br />
           <a
-          target="_blank"
-          rel="noopener"
-          href="https://ever.chat/spacedtime"
-          >Ever.chat/spacedtime
-        </a>
-        <br />
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://www.twitter.com/uptownhr"
-          >Twitter (uptownhr)
-        </a>
+            target="_blank"
+            rel="noopener"
+            href="https://www.twitter.com/uptownhr"
+            >Twitter (uptownhr)
+          </a>
         </div>
-        
-
-        <a
-          style="display: block;"
-          href="https://www.producthunt.com/posts/spacedtime?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-spacedtime"
-          target="_blank"
-        >
-          <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=190071&theme=light"
-            alt="SpacedTime - Remember the important things in your life | Product Hunt Embed"
-            style="width: 250px; height: 54px;"
-            width="250px"
-            height="54px"
-        /></a>
       </nav>
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  components: {
+    TypedExamples: () => import('@/components/TypedExamples.vue')
+  }
+};
+</script>
