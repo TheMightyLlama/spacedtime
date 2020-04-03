@@ -383,3 +383,10 @@ blockquote footer {
 }
 
 /* Custom styles */
+
+
+@media only screen and (max-width: 600px) {
+  hr {
+    margin: 2rem 0;
+  }
+}

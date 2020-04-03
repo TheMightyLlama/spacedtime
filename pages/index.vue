@@ -97,6 +97,10 @@ export default {
 
 <style scoped>
 @media only screen and (max-width: 600px) {
+  header nav {
+    margin-bottom: 3rem;
+  }
+
   footer nav {
     flex-direction: column;
     text-align: center;
