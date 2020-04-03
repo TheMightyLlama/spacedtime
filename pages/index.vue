@@ -69,6 +69,19 @@
             >Twitter (uptownhr)
           </a>
         </div>
+
+        <a
+          style="display: block;"
+          href="https://www.producthunt.com/posts/spacedtime?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-spacedtime"
+          target="_blank"
+        >
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=190071&theme=light"
+            alt="SpacedTime - Remember the important things in your life | Product Hunt Embed"
+            style="width: 250px; height: 54px;"
+            width="250px"
+            height="54px"
+        /></a>
       </nav>
     </footer>
   </div>
@@ -81,3 +94,17 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+@media only screen and (max-width: 600px) {
+  footer nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer nav * + * {
+    margin-top: 2rem;
+  }
+}
+  
+</style>
