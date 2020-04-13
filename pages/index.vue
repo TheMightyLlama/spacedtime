@@ -36,13 +36,13 @@
         cloud.
       </p>
 
-      <no-ssr>
+      <client-only>
         <typed-examples />
-      </no-ssr>
+      </client-only>
 
       <p>
-        <a href="https://github.com/uptownhr/spacedtime">
-          <b>Check it out on Github</b>
+        <a href="https://app.spacedtime.com/onboarding/questions">
+          <b>Start remembering now</b>
         </a>
       </p>
 
