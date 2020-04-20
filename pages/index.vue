@@ -45,14 +45,26 @@
           <b>Start remembering now</b>
         </a>
       </p>
-
-      <code style="margin-top: 3rem">
-        1. yarn global add spacedtime
-        <br />2. spacedtime add "What is my anniversary" "2010-10-10" <br />3.
-        spacedtime recall //this will now pull a question for you to remember
-        <br />
-      </code>
     </header>
+
+    <main>
+      <hr />
+      <section>
+        <header>
+          <h2>Also available in the command line</h2>
+          <p>
+            For people that spend most of their days in the command line,
+            spacedtime is available as an NPM package.
+          </p>
+        </header>
+
+        <code>
+          1. yarn global add spacedtime
+          <br />2. spacedtime add "What is my anniversary" "2010-10-10" <br />3.
+          spacedtime recall //this will now pull a question for you to remember
+        </code>
+      </section>
+    </main>
 
     <footer>
       <hr />
@@ -90,8 +102,8 @@
 <script>
 export default {
   components: {
-    TypedExamples: () => import('@/components/TypedExamples.vue')
-  }
+    TypedExamples: () => import('@/components/TypedExamples.vue'),
+  },
 };
 </script>
 
@@ -110,5 +122,4 @@ export default {
     margin-top: 2rem;
   }
 }
-  
 </style>
